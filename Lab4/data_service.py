@@ -9,6 +9,7 @@ class MoveOfGoods:
     profit: float
     output: float
 
+@dataclass
 class DirectoryOfGoods:
     code: int
     type: str
